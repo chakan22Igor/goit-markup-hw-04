@@ -287,7 +287,12 @@ margin-right: 0
     align-items: center;
 }
 a.sm-li{
-    
+
+}
+.sm-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .team{
     background-color: #F4F4FD;
