@@ -347,12 +347,16 @@ color: var(--navy-blue);
     padding: 32px 0;
 }
 .sm-container {
-
-}
-.sm-ul {
     align-items: center;
     justify-content: center;
     display: flex;
+    
+
+}
+.sm-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 24px;
 
 }
