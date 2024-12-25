@@ -51,6 +51,7 @@ margin-right: auto;
     gap: 40px;
 }
 .navigation-list {
+    position:relative;
     display: block;
     margin-right: 0;
     font-weight: 500;
