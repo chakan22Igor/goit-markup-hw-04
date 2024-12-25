@@ -47,11 +47,11 @@ align-items: center;
 margin-right: auto;
 }
 .navigation {
+    position:relative;
     display: flex;
     gap: 40px;
 }
 .navigation-list {
-    position:relative;
     display: block;
     margin-right: 0;
     font-weight: 500;
