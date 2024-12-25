@@ -53,7 +53,7 @@ margin-right: auto;
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation-list::after{
+.list:first-child:hover:after{
     content: "";
     width: 100%;
     position: absolute;
@@ -179,10 +179,12 @@ justify-content: center;
         rgba(46, 47, 66, 0.7), 
         rgba(46, 47, 66, 0.7)), 
         url(/images/hero-image.jpg);
-    background-size:contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 } 
 .herohead{
     font-family:"Roboto", sans-serif;
@@ -211,6 +213,7 @@ justify-content: center;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:focus,
 .button:hover{
@@ -285,6 +288,7 @@ margin-right: 0
     background-color: #F4F4FD;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    margin-bottom: 8px;
 }
 .listben-icons{
     width: 64px;
@@ -336,6 +340,7 @@ color: var(--navy-blue);
     gap: 24px;
     margin-right: 0;
     background-color: #ffffff;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .containerworker{ 
     border-radius: 0px 0px 4px 4px;
