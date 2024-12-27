@@ -53,16 +53,7 @@ margin-right: auto;
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list:first-child:hover:after{
-    content: "";
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-}
+
 .navigation-list {
     display: block;
     margin-right: 0;
@@ -87,6 +78,16 @@ address ul{
     display: flex;
     margin-left: 0px;
     gap: 40px;
+}
+.list:first-child:hover:after{
+    content: "";
+    width: 48px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 .telmail {
 display:flex;
@@ -383,17 +384,22 @@ color: var(--navy-blue);
  fill: #ffffff;
 }
 
-.sm-icons:hover{
+
+.sm-link:hover{
     background-color: #404BBF;
     cursor: pointer;
 }
 /* section 4 */
 .overlay{
-    position: absolute;
+    position: relative;
+    overflow: hidden;
     top: 0;
     left: 0;
 }
 .overlay-text{
+    position: absolute;
+    top: 0;
+    left: 0;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -406,12 +412,13 @@ color: var(--navy-blue);
     padding-top: 40px;
     padding-left: 32px;
     padding-right: 32px;
-    transform:translateY(100%);
     background-color: #4D5AE5;
     transition: translateY cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(100% );
 }
-.overlay-text:focus,
 .overlay-text:hover{
+    width: 360px;
+    height: 300px;
     transform: translateY(0%);
 
 }
@@ -519,11 +526,6 @@ padding-bottom: 120px;
     display: flex;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
-
-    align-items: center;
-    justify-content: center;
-    
 }
 
 .sm-icons-footer:hover{
@@ -552,7 +554,12 @@ gap: 40px;
     margin-right: 120px;
 }
 .sm-footer-link{
-
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    
 }
 .sm-li-footer{
 
@@ -571,17 +578,19 @@ gap: 40px;
 
 }
 .sm-li-footer {
-    width: 40px;
-    height: 40px;
+
 }
 .sm-footer-link{
+    width: 40px;
+    height: 40px;
     display: flex;
-    width: 100%;
-    height: 100%;
     border-radius: 50%;
     background-color: #4D5AE5;
     align-items: center;
     justify-content: center;
+}
+.sm-footer-link:hover{
+    background-color: #31D0AA ;
 }
 .sm-icon-item {
     
@@ -592,5 +601,4 @@ gap: 40px;
 }
 
 .sm-icons-footer:hover{
-    background-color: #31D0AA ;
     cursor: pointer;
