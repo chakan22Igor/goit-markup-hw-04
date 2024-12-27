@@ -81,8 +81,8 @@ address ul{
 }
 .list:first-child:hover:after{
     content: "";
-    width: 48px;
-    position: absolute;
+    width: 100%;
+    position: relative;
     left: 0;
     bottom: -1px;
     height: 4px;
