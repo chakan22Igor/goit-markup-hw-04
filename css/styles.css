@@ -53,7 +53,18 @@ margin-right: auto;
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.list:hover:after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .navigation-list {
     display: block;
     margin-right: 0;
@@ -78,16 +89,6 @@ address ul{
     display: flex;
     margin-left: 0px;
     gap: 40px;
-}
-.list:first-child:hover:after{
-    content: "";
-    width: 100%;
-    position: relative;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
 }
 .telmail {
 display:flex;
@@ -519,7 +520,7 @@ padding-bottom: 120px;
     display: block;
 }
 .sm-container-footer {
-    
+    align-items: baseline
 
 }
 .sm-icons-footer {
@@ -581,9 +582,9 @@ gap: 40px;
 
 }
 .sm-footer-link{
+    display: flex;
     width: 40px;
     height: 40px;
-    display: flex;
     border-radius: 50%;
     background-color: #4D5AE5;
     align-items: center;
@@ -602,3 +603,12 @@ gap: 40px;
 
 .sm-icons-footer:hover{
     cursor: pointer;
+}
+.sm-container-paragraph{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
