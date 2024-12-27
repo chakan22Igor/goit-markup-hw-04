@@ -51,8 +51,9 @@ margin-right: auto;
     display: flex;
     gap: 40px;
     color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list:hover:after{
+.list:first-child:active:after{
     content: "";
     width: 100%;
     position: absolute;
@@ -71,9 +72,8 @@ margin-right: auto;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #404bbf;
+    color: #2E2F42;
     padding: 24px 0;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-list:first-child{
 }
@@ -536,7 +536,7 @@ padding-bottom: 120px;
 }
 .footer_p .container{
     display: flex;
-    align-items: baseline;
+    
     gap: 120;
 }
 
