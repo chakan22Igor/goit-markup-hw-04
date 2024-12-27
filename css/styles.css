@@ -520,7 +520,7 @@ padding-bottom: 120px;
     display: block;
 }
 .sm-container-footer {
-
+    align-items: baseline
 
 }
 .sm-icons-footer {
@@ -533,7 +533,6 @@ padding-bottom: 120px;
  background-color: ;
 }
 .sm-container-footer-item{
-    align-items: baseline
 }
 .footer_p .container{
     display: flex;
@@ -611,4 +610,5 @@ gap: 40px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    margin-top: 0px;
 }
