@@ -1,5 +1,5 @@
 
-.list::after{
+header::after{
     content: "";
     left: 0;
     bottom: -1px;
