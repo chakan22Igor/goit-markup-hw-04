@@ -501,7 +501,7 @@ padding-bottom: 120px;
 .portfolio-list:last-child{
     margin-bottom: 0px;
 }
-.portfolio-list:hover{
+.portfolio-list:hover .overlay-text{
     transform: translateY(0%);
 }
 .containerportfolio{
