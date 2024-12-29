@@ -83,6 +83,7 @@ margin-right: auto;
 .navigation-list.item-studio{
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    bottom: -1px;
 }
 
 .address {
@@ -360,7 +361,6 @@ color: var(--navy-blue);
 }
 
 .ls-color{
-    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     gap: 24px;
@@ -369,6 +369,7 @@ color: var(--navy-blue);
 }
 
 .containerworker{ 
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     padding: 32px 0;
 }
@@ -401,6 +402,7 @@ color: var(--navy-blue);
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    gap: 24px;
 }
 .sm-icon-item {
     
