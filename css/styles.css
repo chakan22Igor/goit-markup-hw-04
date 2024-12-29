@@ -392,6 +392,7 @@ color: var(--navy-blue);
     height: 40px;
     align-items: center;
     justify-content: center;
+    gap: 24px; 
 }
 .sm-link {
     display: flex;
